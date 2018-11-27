@@ -2,14 +2,14 @@ body{
     background-attachment: fixed;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 #pagelink {
     background-color: #ccc;
     padding: 20px;
     border: 10px solid black;
-  }
+}
 
 h1 {
     font-size: 300%;
@@ -30,8 +30,63 @@ h1 {
 
 .row {
     display: flex;
+
 }
 
 .column {
     flex: 50%;
+    
+}
+
+.factions {
+    border: black 10px solid;
+    display: inline-block;
+    background-color: #ccc;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: 900
+}
+
+
+.commanders1{
+    background-color: #ccc;
+    border: black 10px solid;
+    display: inline-block;
+    height: 315px;
+    position: relative;
+    right: -440px;
+
+}
+
+.commanders2{
+    background-color: #ccc;
+    border: black 10px solid;
+    display: inline-block;
+    width:1655px;
+    height: 315px;
+    position: relative;
+    top: -145px;
+    text-align: center;
+    font-size: 150%
+    
+    
+
+}
+.commanders3{
+    background-color: #ccc;
+    border: black 10px solid;
+    display: inline-block;
+    width:1655px;
+    height: 315px;
+    position: relative;
+    top: -130px;
+    left: 225px;
+    text-align: center;
+    font-size: 150%
+    
+    
+
 }
